@@ -4,7 +4,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     preferIpAddress: true
-    instance-id: ${spring.cloud.server.ipAddress}:${server.port}
+    instance-id: 127.0.0.1:9991
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/eureka
