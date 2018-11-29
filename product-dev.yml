@@ -36,5 +36,5 @@ pagehelper:
     count: countSql
 girl:
   name: "zhli13"
-  age: "31"
+  age: "3w"
 env: "test"
