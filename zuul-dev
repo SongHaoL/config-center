@@ -21,3 +21,9 @@ spring:
     name: zuul
 server:
   port: 9994
+zuul:
+  routes:
+    product:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders: 
