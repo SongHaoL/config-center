@@ -25,5 +25,5 @@ zuul:
   routes:
     product:
       path: /myProduct/**
-      serviceId: PRODUCT
+      serviceId: product
       sensitiveHeaders: 
